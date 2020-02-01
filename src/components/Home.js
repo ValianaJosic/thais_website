@@ -17,12 +17,13 @@ function Home() {
       </nav>
       </div>
       <header className="App-header">
-      <video className='videoTag' autoPlay loop muted>
-        <source src={sample} type='video/mp4' />
-    </video>
+   
         <p> 
         </p>
       </header>
+         <video className='videoTag' autoPlay loop muted>
+        <source src={sample} type='video/mp4' />
+    </video>
     </div>
   );
 }

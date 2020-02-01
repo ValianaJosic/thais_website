@@ -18,12 +18,11 @@
 }
 
 .App-header {
-  background-image: url(SOBE.jpeg);
+  background-image: url(SOBE.jpg);
   background-position: center center;
   background-repeat:  no-repeat;
   background-attachment: fixed;
   background-size: cover;
-  background-color: #282c34;
   min-height: 100vh;
   display: flex;
   flex-direction: column;
