@@ -10,6 +10,7 @@ function Home() {
       <header className="App-header">
 
       </header>
+      <div className="profile-wrapper">
       <div className="profile">
         <img src={thais} alt="thais" className="thais"/>
         <p className="contact">Thais Reyes
@@ -42,7 +43,7 @@ function Home() {
         <source src={sample} type='video/mp4' />
      </video>
     </div>
-    
+    </div>
     </div>
   );
 }
