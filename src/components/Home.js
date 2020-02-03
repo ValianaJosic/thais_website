@@ -12,7 +12,10 @@ function Home() {
       </header>
       <div className="profile-wrapper">
       <div className="profile">
+        <div className="img">
         <img src={thais} alt="thais" className="thais"/>
+        </div>
+        <div className="contact-div">
         <p className="contact">Thais Reyes
            <br></br>
             Real Estate Advisor
@@ -21,6 +24,7 @@ function Home() {
             <br></br>
             M: 786.546.0440
         </p>
+        </div>
         </div>
           <p className="about">
 
