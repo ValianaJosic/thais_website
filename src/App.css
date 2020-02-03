@@ -84,3 +84,10 @@ nav a {
 a, ul, li {
   list-style-type: none;
 }
+
+.thais{
+display: flex;
+justify-content: flex-end;
+border-radius: 100%;
+}
+
