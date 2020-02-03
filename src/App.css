@@ -33,12 +33,12 @@
 }
 
 @keyframes fade {
-  from {background-color: turquoise;}
+  from {background-color: #4cc2e2;}
   to {background-color: transparent}
 }
 
 .App-link {
-  color: #61dafb;
+  color: #4cc2e2;
   text-decoration: none;
 }
 
@@ -52,7 +52,7 @@
 }
 
 .nav, .nav-div, .App{
-  background-color: black;
+  background-color: transparent;
 }
 
 .nav{
@@ -68,6 +68,7 @@ animation-duration: 4s;
   text-decoration: none;
   color: black;
   font-size: 20px;
+  padding: 20px;
 }
 nav > ul {
   display: flex;
@@ -75,7 +76,7 @@ nav > ul {
 }
 
 nav a {
-  color: white;
+  color: transparent;
   display: inline-block;
   padding: 20px;
 }
