@@ -1,12 +1,18 @@
 import React from 'react';
 import '../App.css';
-import sample from '../Video.mp4';
-import thais from '../thais.jpg'
+import thais from '../thais.jpg';
+import classes from '../App.css';
 
 
 function Home() {
-  return (
+  return (  
     <div className="App">
+  <div className={classes.Container} >
+            <video autoPlay="autoplay" loop="loop" muted className="video">
+                <source src="https://s3.us-east-2.amazonaws.com/thais.website/miami.mp4" type="video/mp4" />
+                Your browser does not support the video tag.
+            </video>
+            </div>
       <header className="App-header">
 
       </header>
@@ -42,11 +48,6 @@ function Home() {
                 <br></br>
                 Thais is a resident of Miami Beach, she enjoys cooking, dining, reading, spending quality time with family.
           </p>
-    <div>
-      <video className='videoTag' autoPlay loop muted>
-        <source src={sample} type='video/mp4' />
-     </video>
-    </div>
     </div>
     </div>
   );
