@@ -8,6 +8,7 @@ const Navigation = () => {
       <div className="nav-div">
           <div className="nav">
           <NavLink to="/"  className="nav-page">Home</NavLink>
+          <NavLink to="/properties"  className="nav-page">Properties</NavLink>
           <NavLink to="/about"  className="nav-page">About</NavLink>
           <NavLink to="/contact"  className="nav-page">Contact</NavLink>
           </div>
