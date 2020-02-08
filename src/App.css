@@ -64,7 +64,6 @@ nav > ul {
 nav a {
   color: transparent;
   display: inline-block;
-  padding: 20px;
 }
 
 a, ul, li {
@@ -144,6 +143,7 @@ justify-content: center;
 
 .nav{
   display: flex;
+  flex-direction: row;
 }
 
 .contact{
