@@ -52,7 +52,7 @@ z-index: 100;
 
 .nav-page{
   text-decoration: none;
-  color: black;
+  color: white;
   font-size: 25px;
   padding: 25px;
 }
@@ -64,7 +64,6 @@ nav > ul {
 nav a {
   color: transparent;
   display: inline-block;
-  padding: 20px;
 }
 
 a, ul, li {
@@ -136,3 +135,18 @@ justify-content: center;
   width:100%;
   height:100%;
 }
+
+.logo{
+  height: 300px;
+  width: 300px;
+}
+
+.nav{
+  display: flex;
+  flex-direction: row;
+}
+
+.contact{
+  padding-top: 130px;
+}
+
