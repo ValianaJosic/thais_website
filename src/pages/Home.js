@@ -8,30 +8,28 @@ function Home() {
   return (  
     <div className="App">
   <div className={classes.Container} >
-            <video autoPlay="autoplay" loop="loop" muted className="video">
-                <source src="https://s3.us-east-2.amazonaws.com/thais.website/miami.mp4" type="video/mp4" />
-                Your browser does not support the video tag.
-            </video>
-            </div>
-      <header className="App-header">
-
-      </header>
-      <div className="profile-wrapper">
+      <video autoPlay="autoplay" loop="loop" muted className="video">
+        <source src="https://s3.us-east-2.amazonaws.com/thais.website/miami.mp4" type="video/mp4" />
+          Your browser does not support the video tag.
+      </video>
+  </div>
+      
+    <div className="profile-wrapper">
       <div className="profile">
         <div className="img">
         <img src={thais} alt="thais" className="thais"/>
         </div>
         <div className="contact-div">
-        <p className="contact">Thais Reyes
+          <p className="contact">Thais Reyes
            <br></br>
             Real Estate Advisor
             <br></br>
             thais.reyes@compass.com
             <br></br>
             M: 786.546.0440
-        </p>
+          </p>
         </div>
-        </div>
+      </div>
           <p className="about">
 
                 Thais Reyes is an experienced Real Estate advisor, a Venezuelan native, who moved to Miami in 1995, captivated by the beauty of Miami, from its pristine beaches, excellent year round weather, cultural diversity, lifestyle, and ever-growing industries. Thais is adamant about the advantages of owning property in South Florida.
