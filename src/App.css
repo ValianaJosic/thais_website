@@ -178,15 +178,18 @@ justify-content: center;
 .facebook {
   background: #3B5998;
   color: white;
+  border-radius: 50%;
 }
 
 .twitter {
   background: #55ACEE;
   color: white;
+  border-radius: 50%;
 }
 
 .linkedin {
   background: #007bb5;
   color: white;
+  border-radius: 50%;
 }
 
