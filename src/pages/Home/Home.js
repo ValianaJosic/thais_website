@@ -1,7 +1,7 @@
 import React from 'react';
-import '../App.css';
-import thais from '../thais.jpg';
-import classes from '../App.css';
+import './Home.css';
+import Thais from '../../assets/images/thais.jpg';
+import classes from './Home.css';
 
 
 function Home() {
@@ -45,7 +45,7 @@ function Home() {
                 Thais is a resident of Miami Beach, she enjoys cooking, dining, reading, spending quality time with family.
           </p>
         <div className="img">
-          <img src={thais} alt="thais" className="thais"/>
+          <img src={Thais} alt="thais" className="thais"/>
         </div>
     </div>
     

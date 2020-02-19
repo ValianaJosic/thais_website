@@ -2,10 +2,10 @@
 import React, { Component } from 'react';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
  
-import Home from './pages/Home';
+import Home from './pages/Home/Home';
 import About from './pages/About';
 import Contact from './pages/Contact';
-import Navigation from './components/Navigation';
+import Navigation from './components/Nav/Nav';
 import Properties from './pages/Properties';
  
 class App extends Component {

@@ -1,0 +1,39 @@
+.nav{
+    display: flex;
+    flex-direction: row;
+  }
+  
+.nav, .nav-div, .App{
+    background-color: transparent;
+  }
+  
+  .nav{
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  animation-name: fade;
+  animation-duration: 4s;
+  z-index: 100;
+  }
+  
+  .nav-page{
+    text-decoration: none;
+    color: white;
+    font-size: 25px;
+    padding: 25px;
+  }
+  nav > ul {
+    display: flex;
+    margin: 0;
+  }
+  
+  nav a {
+    color: transparent;
+    display: inline-block;
+  }
+  
+  a, ul, li {
+    list-style-type: none;
+  }
+  
