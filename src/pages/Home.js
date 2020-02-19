@@ -20,22 +20,16 @@ function Home() {
   </div>
     <div className="profile-wrapper">
       <div className="profile">
-        <div className="img">
-        <img src={thais} alt="thais" className="thais"/>
-        </div>
-        <div className="contact-div">
-          <p className="contact">Thais Reyes
-           <br></br>
+      </div>
+          <p className="about">
+            <p className="contact">Thais Reyes
+            <br></br>
             Real Estate Advisor
             <br></br>
             thais.reyes@compass.com
             <br></br>
             M: 786.546.0440
           </p>
-        </div>
-      </div>
-          <p className="about">
-
                 Thais Reyes is an experienced Real Estate advisor, a Venezuelan native, who moved to Miami in 1995, captivated by the beauty of Miami, from its pristine beaches, excellent year round weather, cultural diversity, lifestyle, and ever-growing industries. Thais is adamant about the advantages of owning property in South Florida.
                 <br></br>
                 Thais has a passion for the real estate profession, dedication, attention to detail, strong negotiation skills, efficient real estate transactions process and has successfully closed commercial leases as well as residential real estate transactions.<br></br>
@@ -50,7 +44,11 @@ function Home() {
                 <br></br>
                 Thais is a resident of Miami Beach, she enjoys cooking, dining, reading, spending quality time with family.
           </p>
+        <div className="img">
+          <img src={thais} alt="thais" className="thais"/>
+        </div>
     </div>
+    
     </div>
   );
 }

@@ -68,7 +68,7 @@ a, ul, li {
 .thais{
 display: flex;
 justify-content: center;
-border-radius: 100%;
+padding-left: 70px;
 }
 
 .img{
@@ -80,19 +80,12 @@ border-radius: 100%;
 .about{
 padding-top: 70px;
 padding-bottom: 40px;
-background-color: white;
--webkit-box-sizing: border-box;
--moz-box-sizing: border-box;
-box-sizing: border-box;
 width: 50%; 
 height:100%;
 bottom: 0; 
-display: block;
-position: static;
-background-color: rgba(218, 241, 247, 0.6) ;
 animation-name: example;
 animation-duration: 4s;
-border-radius: 20px;
+
 color: black;
 padding: 0.5em;
 }
@@ -110,7 +103,7 @@ justify-content: center;
 
 .profile-wrapper{
   background-image: url(compass.jpeg);
-  background-color: rgba(255,255,255,0.6);
+  background-color: rgba(255,255,255,0.85);
   background-blend-mode: lighten;
   background-position: center center;
   background-repeat:  no-repeat;
@@ -118,7 +111,7 @@ justify-content: center;
   background-size: cover;
   min-height: 100vh;
   display: flex;
-  flex-direction: column;
+  flex-direction:row;
   align-items: center;
   justify-content: center;
   font-weight: bold;
@@ -141,7 +134,9 @@ justify-content: center;
 }
 
 .contact{
-  padding-top: 50px;
+  padding-top: 90px;
+  font-size: 25px;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
 }
 
 
