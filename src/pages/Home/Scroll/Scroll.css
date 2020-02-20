@@ -1,0 +1,27 @@
+.arrow{
+font-size: 60px;
+color:#E7ECEF;
+position: absolute;
+left: 100%;
+margin-left: -100px;
+top: 200%;
+margin-top: -200px;
+}
+
+.bounce {
+    -moz-animation: bounce 4s infinite;
+    -webkit-animation: bounce 4s infinite;
+    animation: bounce 4s infinite;
+  }
+  
+  @keyframes bounce {
+    0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+    40% {
+      transform: translateY(-30px);
+    }
+    60% {
+      transform: translateY(-15px);
+    }
+  }
