@@ -1,17 +1,18 @@
 import React from 'react';
 import './Home.css';
-import classes from './Home.css';
 import Profile from './Profile/Profile'
-
+import Actionbtn from './Action-btn/Action-btn'
+import Video from '../../assets/Videos/miami.mp4'
 
 function Home() {
   return (
-    <div className="App">
-      <div className={classes.Container} >
+    <div>
+      <div className="video-div" >
         <video autoPlay="autoplay" loop="loop" muted className="video">
-          <source src="https://s3.us-east-2.amazonaws.com/thais.website/miami.mp4" type="video/mp4" />
+          <source src={Video} type="video/mp4" />
           Your browser does not support the video tag.
       </video>
+      <Actionbtn/>
       </div>
       {/* Profile Section */}
       <Profile/>
