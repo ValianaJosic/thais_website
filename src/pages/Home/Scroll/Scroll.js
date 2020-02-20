@@ -7,7 +7,7 @@ function Scroll() {
 
     return (
         <div className="scroll  bounce">
-            <i class="fa fa-angle-double-down arrow"></i>
+            <i className="fa fa-angle-double-down arrow"></i>
         </div>
     )
 };
