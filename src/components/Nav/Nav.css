@@ -24,14 +24,19 @@
   
   .nav-page{
     text-decoration: none;
-    color: white;
-    font-size: 20px;
+    color: #E7ECEF;
+    font-size: 18px;
+    text-transform: uppercase;
+  }
+
+  .nav-page:hover{
+    color: #A3CEF1;
   }
 
   .nav-link{
   padding: 20px;
   position: relative;
-  top: 30%;
+  top: 38%;
   }
 
   .property-link{
@@ -71,7 +76,7 @@
     text-align: center;
     padding: 16px;
     transition: all 0.3s ease;
-    color: white;
+    color:#E7ECEF;
     font-size: 15px;
   }
   
@@ -81,17 +86,17 @@
   }
   
   .facebook {
-    color: white;
+    color: #E7ECEF;
     border-radius: 50%;
   }
   
   .twitter {
-    color: white;
+    color: #E7ECEF;
     border-radius: 50%;
   }
   
   .linkedin {
-    color: white;
+    color: #E7ECEF;
     border-radius: 50%;
   }
   
