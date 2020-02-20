@@ -1,7 +1,6 @@
 import React from 'react';
 import './Nav.css';
 import Logo from '../../assets/images/logo.svg';
-
 import { NavLink } from 'react-router-dom';
 
 
@@ -9,7 +8,7 @@ const Navigation = () => {
   return (
     <div className="nav nav-div">
       <NavLink to="/" className="nav-page logo-link"> <img src={Logo} alt="logo" className="logo" /></NavLink>
-      <div>
+      <div className="link-div">
         <NavLink to="/properties" className="nav-page nav-link property-link">Properties</NavLink>
         <NavLink to="/about" className="nav-page nav-link">About</NavLink>
         <NavLink to="/contact" className="nav-page nav-link">Contact</NavLink>
