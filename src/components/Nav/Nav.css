@@ -13,27 +13,86 @@
   left: 0;
   right: 0;
   animation-name: fade;
-  animation-duration: 4s;
-  z-index: 100;
+  animation-duration: 10s;
+  z-index: 100; 
+  background-color: #3A5C83;
+  opacity: 0.98;
+  display: flex;
+  justify-content: row;
+  
   }
   
   .nav-page{
     text-decoration: none;
     color: white;
-    font-size: 25px;
-    padding: 25px;
+    font-size: 20px;
   }
-  nav > ul {
-    display: flex;
-    margin: 0;
+
+  .nav-link{
+  padding: 20px;
+  position: relative;
+  top: 30%;
   }
-  
-  nav a {
-    color: transparent;
-    display: inline-block;
+
+  .property-link{
+    padding-left: 130px;
   }
-  
+
+.logo-link{
+  padding-left: 60px;
+}
+ 
   a, ul, li {
     list-style-type: none;
   }
+  
+  .logo{
+    height: 110px;
+    width: 110px;
+    padding: 0;
+    margin: 0;
+  }
+
+  
+  
+  .icon-bar {
+    display: flex;
+    position: fixed;
+    top: 8%;
+    right:0;
+    -webkit-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    transform: translateY(-50%);
+  }
+  
+
+  .icon-bar a {
+    display: block;
+    text-align: center;
+    padding: 16px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 15px;
+  }
+  
+ 
+  .icon-bar a:hover {
+    background-color: #A3CEF1;
+  }
+  
+  .facebook {
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .twitter {
+    color: white;
+    border-radius: 50%;
+  }
+  
+  .linkedin {
+    color: white;
+    border-radius: 50%;
+  }
+  
   

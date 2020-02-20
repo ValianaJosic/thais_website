@@ -1,0 +1,53 @@
+
+  .thais{
+    display: flex;
+    justify-content: center;
+    padding-left: 70px;
+    }
+    
+    .img{
+      display: flex;
+      justify-content: center;
+    }
+    
+    
+    .about{
+    padding-top: 70px;
+    padding-bottom: 40px;
+    width: 50%; 
+    height:100%;
+    bottom: 0; 
+    animation-name: example;
+    animation-duration: 4s;
+    background-color: rgb(250, 240, 240, 0.9);
+    color: black;
+    padding: 0.5em;
+    border-radius: 20px;
+    }
+    
+    .contact-div{
+    display: flex;
+    justify-content: center;
+    }
+    
+    .profile{
+      font-size: 30px;  
+    }
+    
+    .profile-wrapper{
+      background-image: url('../../../assets/images/compass.jpeg');
+      background-color: rgba(167, 54, 54, 0.2);
+      background-blend-mode: lighten;
+      background-position: center center;
+      background-repeat:  no-repeat;
+      background-attachment: fixed;
+      background-size: cover;
+      min-height: 100vh;
+      display: flex;
+      flex-direction:row;
+      align-items: center;
+      justify-content: center;
+      font-weight: bold;
+      color: black;
+    }
+    

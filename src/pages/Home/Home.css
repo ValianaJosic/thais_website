@@ -13,8 +13,8 @@
   }
   
   @keyframes fade {
-    from {background-color: #4cc2e2;}
-    to {background-color: transparent}
+    from {background-color: transparent;}
+    to {background-color:#274C77 }
   }
   
   .App-link {
@@ -31,69 +31,11 @@
     }
   }
   
-  .thais{
-  display: flex;
-  justify-content: center;
-  padding-left: 70px;
-  }
-  
-  .img{
-    display: flex;
-    justify-content: center;
-  }
-  
-  
-  .about{
-  padding-top: 70px;
-  padding-bottom: 40px;
-  width: 50%; 
-  height:100%;
-  bottom: 0; 
-  animation-name: example;
-  animation-duration: 4s;
-  background-color: rgb(250, 240, 240, 0.9);
-  color: black;
-  padding: 0.5em;
-  border-radius: 20px;
-  }
-  
-  .contact-div{
-  display: flex;
-  justify-content: center;
-  }
-  
-  .profile{
-    font-size: 30px;  
-  }
-  
-  .profile-wrapper{
-    /* background-image: url(compass.jpeg); */
-    background-color: rgba(167, 54, 54, 0.2);
-    background-blend-mode: lighten;
-    background-position: center center;
-    background-repeat:  no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
-    min-height: 100vh;
-    display: flex;
-    flex-direction:row;
-    align-items: center;
-    justify-content: center;
-    font-weight: bold;
-    color: black;
-  }
-  
   .video{
     width:100%;
-    height:100%;
+    height: 100%;
   }
-  
-  .logo{
-    height: 300px;
-    width: 300px;
-  }
-  
-  
+    
   .contact{
     font-size: 25px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
@@ -104,48 +46,4 @@
     height: 40%;
     width:40%;
   }
-  
-  /* Fixed/sticky icon bar (vertically aligned 50% from the top of the screen) */
-  .icon-bar {
-    position: fixed;
-    top: 80%;
-    right:0;
-    -webkit-transform: translateY(-50%);
-    -ms-transform: translateY(-50%);
-    transform: translateY(-50%);
-  }
-  
-  /* Style the icon bar links */
-  .icon-bar a {
-    display: block;
-    text-align: center;
-    padding: 16px;
-    transition: all 0.3s ease;
-    color: white;
-    font-size: 20px;
-  }
-  
-  /* Style the social media icons with color, if you want */
-  .icon-bar a:hover {
-    background-color: silver;
-  }
-  
-  .facebook {
-    background: #3B5998;
-    color: white;
-    border-radius: 50%;
-  }
-  
-  .twitter {
-    background: #55ACEE;
-    color: white;
-    border-radius: 50%;
-  }
-  
-  .linkedin {
-    background: #007bb5;
-    color: white;
-    border-radius: 50%;
-  }
-  
   
