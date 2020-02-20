@@ -1,0 +1,11 @@
+.learn-btn{
+    border: 1px solid #fff;
+    text-align: center;
+    width: 100px;
+    float: right;
+}
+
+.learn-text{
+    text-decoration: none;
+    color: #E7ECEF;
+}

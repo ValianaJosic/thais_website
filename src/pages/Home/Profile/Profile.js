@@ -1,6 +1,7 @@
 import React from 'react';
 import Thais from '../../../assets/images/thais.jpg';
 import '../Profile/Profile.css'
+import Learnbtn from './Learn-btn/learn-btn';
 
 function Profile() {
 
@@ -18,6 +19,7 @@ function Profile() {
             <br></br>
                 Thais has a passion for the real estate profession, dedication, attention to detail, strong negotiation skills, efficient real estate transactions process and has successfully closed commercial leases as well as residential real estate transactions.<br></br>
                 <br></br>
+                <Learnbtn/>
       </p>
             <div className="img">
                 <img src={Thais} alt="thais" className="thais" />
