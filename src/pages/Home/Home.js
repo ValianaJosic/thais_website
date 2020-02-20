@@ -3,6 +3,7 @@ import './Home.css';
 import Profile from './Profile/Profile'
 import Actionbtn from './Action-btn/Action-btn'
 import Video from '../../assets/Videos/miami.mp4'
+import Scroll from '../Home/Scroll/Scroll'
 
 function Home() {
   return (
@@ -13,6 +14,7 @@ function Home() {
           Your browser does not support the video tag.
       </video>
       <Actionbtn/>
+      <Scroll/>
       </div>
       {/* Profile Section */}
       <Profile/>
