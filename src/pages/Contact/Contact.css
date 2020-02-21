@@ -1,5 +1,10 @@
 .form{
-    padding-top: 200px;
+    display: flex;
+    justify-content: center;
+}
+
+.contact{
+    padding-top: 190px;
     display: flex;
     justify-content: center;
 }
