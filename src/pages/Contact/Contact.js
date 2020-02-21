@@ -39,7 +39,7 @@ class Contact extends Component {
   render() {
     return (
       <Fragment>
-        <p className="contact">Thais Reyes
+        <p className="contact-me">Thais Reyes
       <br></br>
           Real Estate Advisor
       <br></br>
