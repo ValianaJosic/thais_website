@@ -1,10 +1,13 @@
 .form{
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    padding-left: 60px;
 }
 
 .contact-me{
     padding-top: 190px;
     display: flex;
-    justify-content: center;
+    justify-content: left;
+    padding-left: 60px;
+    font-size: 20px;
 }
