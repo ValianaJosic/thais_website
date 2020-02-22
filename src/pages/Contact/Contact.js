@@ -2,6 +2,7 @@
 import React, { Component, Fragment } from 'react';
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 import '../Contact/Contact.css';
+import ThaisContact from '../../assets/images/thaiscontact.png'
 
 
 class Contact extends Component {
@@ -9,14 +10,7 @@ class Contact extends Component {
   render() {
     return (
       <Fragment>
-        <p className="contact-me">Thais Reyes
-      <br></br>
-          Real Estate Advisor
-      <br></br>
-          thais.reyes@compass.com
-      <br></br>
-          M: 786.546.0440
-      </p>
+        <img className="contact-me" src={ThaisContact} alt="Thais"></img>
         <div className="form">
           <Form onSubmit={this.handleSubmit} style={{ width: '600px' }}>
             <FormGroup>

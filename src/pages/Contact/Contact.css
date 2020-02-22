@@ -5,9 +5,10 @@
 }
 
 .contact-me{
-    padding-top: 190px;
+    padding-top: 115px;
     display: flex;
     justify-content: left;
     padding-left: 60px;
-    font-size: 20px;
+    height: 35%;
+    width: 35%;
 }
