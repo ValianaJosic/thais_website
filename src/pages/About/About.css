@@ -1,0 +1,17 @@
+.about-img{
+    height: 30%;
+    width: 30%;
+    padding-left: 30px;
+}
+
+.profile-about{
+    display: flex;
+    justify-content: row;
+    padding-left: 20px;
+    padding-top: 10px;
+
+}
+
+.img-about{
+padding-top: 120px;
+}
