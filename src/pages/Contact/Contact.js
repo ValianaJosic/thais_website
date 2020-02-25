@@ -1,24 +1,55 @@
 
-import React, { Component, Fragment } from 'react';
+import React, { Fragment } from 'react';
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 import '../Contact/Contact.css';
-import ThaisContact from '../../assets/images/thaiscontact.png'
+import ThaisContact from '../../assets/images/thaiscontact.png';
+import axios from 'axios';
 
 
-class Contact extends Component {
+class Contact extends React.Component {
+  
+  constructor(props) {
+    super(props);
+    this.state = {
+      name: '',
+      email: '',
+      message: ''
+    }
+  }
+
+  handleSubmit(e) {
+    e.preventDefault();
+    axios({
+      method: "POST",
+      url: "http://localhost:3002/send",
+      data: this.state
+    }).then((response) => {
+      if (response.data.status === 'success') {
+        alert("Message Sent.");
+        this.resetForm()
+      } else if (response.data.status === 'fail') {
+        alert("Message failed to send.")
+      }
+    })
+  }
+
+  resetForm() {
+
+    this.setState({ name: '', email: '', message: '' })
+  }
 
   render() {
     return (
       <Fragment>
         <img className="contact-me" src={ThaisContact} alt="Thais"></img>
         <div className="form">
-          <Form onSubmit={this.handleSubmit} style={{ width: '600px' }}>
+          <Form onSubmit={this.handleSubmit.bind(this)} method="POST" style={{ width: '600px' }}>
             <FormGroup>
               <Label for="name">Name:</Label>
               <Input
                 type="text"
                 name="name"
-                onChange={this.handleChange} />
+                value={this.state.name} onChange={this.onNameChange.bind(this)} />
             </FormGroup>
 
             <FormGroup>
@@ -26,7 +57,7 @@ class Contact extends Component {
               <Input
                 type="email"
                 name="email"
-                onChange={this.handleChange} />
+                value={this.state.email} onChange={this.onEmailChange.bind(this)} />
             </FormGroup>
 
             <FormGroup>
@@ -34,7 +65,7 @@ class Contact extends Component {
               <Input
                 type="textarea"
                 name="message"
-                onChange={this.handleChange} />
+                value={this.state.message} onChange={this.onMessageChange.bind(this)} />
             </FormGroup>
 
             <Button>Submit</Button>
@@ -42,6 +73,18 @@ class Contact extends Component {
         </div>
       </Fragment>
     );
+  }
+
+  onNameChange(event) {
+    this.setState({ name: event.target.value })
+  }
+
+  onEmailChange(event) {
+    this.setState({ email: event.target.value })
+  }
+
+  onMessageChange(event) {
+    this.setState({ message: event.target.value })
   }
 }
 
