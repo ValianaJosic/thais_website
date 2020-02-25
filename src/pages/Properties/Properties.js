@@ -11,18 +11,12 @@ import '../Properties/Properties.css'
 const items = [
   {
     src: 'https://s3.us-east-2.amazonaws.com/thais.website/officelist4.jpeg',
-    altText: 'Slide 1',
-    caption: 'Slide 1'
   },
   {
     src: 'https://s3.us-east-2.amazonaws.com/thais.website/officelist2.jpeg',
-    altText: 'Slide 2',
-    caption: 'Slide 2'
   },
   {
     src: 'https://s3.us-east-2.amazonaws.com/thais.website/officelist3.jpeg',
-    altText: 'Slide 3',
-    caption: 'Slide 3'
   }
 ];
 
@@ -69,7 +63,7 @@ const Example = (props) => {
     >
       <CarouselIndicators items={items} activeIndex={activeIndex} onClickHandler={goToIndex} />
       {slides}
-      <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} />
+      <CarouselControl direction="prev" directionText="Previous" onClickHandler={previous} className="prev"/>
       <CarouselControl direction="next" directionText="Next" onClickHandler={next} />
     </Carousel>
   );

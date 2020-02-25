@@ -1,4 +1,4 @@
-.carousel, .carouselItem, .CarouselControl, .CarouselIndicators { 
+.carousel{ 
     width: 40%;
     height: 30%;
     padding-top: 200px;
@@ -10,4 +10,7 @@
     height: 100%;
   }
 
+  .prev{
+      padding-left: 60px;
+  }
 
