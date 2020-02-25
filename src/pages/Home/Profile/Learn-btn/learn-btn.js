@@ -6,7 +6,7 @@ function Learnbtn() {
 
     return (
         <div className="learn-btn">
-            <a href="https://www.facebook.com/Thais-Reyes-357850721490279/" className="learn-text">Learn More</a>
+            <a href="../About" className="learn-text">Learn More</a>
         </div>
     )
 };
