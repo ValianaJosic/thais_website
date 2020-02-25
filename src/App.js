@@ -6,7 +6,7 @@ import Home from './pages/Home/Home';
 import About from './pages/About/About';
 import Contact from './pages/Contact/Contact';
 import Navigation from './components/Nav/Nav';
-import Properties from './pages/Properties';
+import Properties from './pages/Properties/Properties';
  
 class App extends Component {
   render() {
