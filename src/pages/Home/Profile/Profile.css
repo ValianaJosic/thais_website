@@ -19,8 +19,8 @@
     bottom: 0; 
     animation-name: example;
     animation-duration: 4s;
-    background-color: #3A5C83;
-    color: #E7ECEF;
+    /* background-color: #3A5C83; */
+    color:   #3A5C83;
     padding: 0.5em;
     border-radius: 15px;
     }
@@ -44,3 +44,8 @@
       justify-content: center;
     }
     
+.contact-profile{
+  font-size: 30px;
+  border-left: solid 2px #3A5C83;
+  padding-left: 10px;
+}
