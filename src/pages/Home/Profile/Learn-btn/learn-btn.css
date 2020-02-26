@@ -9,3 +9,7 @@
     text-decoration: none;
     color: #E7ECEF;
 }
+
+.learn-text:hover{
+    color: #fff;
+}
