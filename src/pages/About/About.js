@@ -1,6 +1,6 @@
 
 // import React from 'react';
-import AboutIMG from '../../assets/images/about.jpg';
+import AboutIMG from '../../assets/images/about-img.jpeg';
 import '../About/About.css';
 import React, { Fragment } from 'react';
 
@@ -8,7 +8,9 @@ const About = () => {
   return (
     <Fragment>
       <div className="about-contain">
+        <div className="name-div">
         <p className="name">Meet <br></br> Thais Reyes</p>
+        </div>
         <div className="profile-about">
           <p className="about-page">
             Thais Reyes is an experienced Real Estate advisor, a Venezuelan native, who moved to Miami in 1995, captivated by the beauty of Miami, from its pristine beaches, excellent year round weather, cultural diversity, lifestyle, and ever-growing industries. Thais is adamant about the advantages of owning property in South Florida.
