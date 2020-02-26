@@ -10,7 +10,7 @@ function Profile() {
             <div className="profile">
             </div>
             <p className="about">
-                <p className="contact">Thais Reyes
+                <p className="contact-profile">Thais Reyes
         <br></br>
                     Real Estate Advisor
         <br></br>
