@@ -3,13 +3,14 @@
 import AboutIMG from '../../assets/images/about-img.jpeg';
 import '../About/About.css';
 import React, { Fragment } from 'react';
+import Contactbtn from '../Contact/Contact-btn/Contact-btn'
 
 const About = () => {
   return (
     <Fragment>
       <div className="about-contain">
         <div className="name-div">
-        <p className="name">Meet <br></br> Thais Reyes</p>
+          <p className="name">Meet <br></br> Thais Reyes</p>
         </div>
         <div className="profile-about">
           <p className="about-page">
@@ -31,6 +32,7 @@ const About = () => {
             <img src={AboutIMG} alt="thais" className="about-img" />
           </div>
         </div>
+        <Contactbtn/>
       </div>
     </Fragment>
   );
