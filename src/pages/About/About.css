@@ -1,18 +1,22 @@
 .about-img{
-    height: 500px;
-    width: 500px;
+    height: 80%;
+    width: 80%;
+    position: relative;
+    top:-17%;
+}
+
+.name-div{
+    padding-top: 150px;
+    width: 30%;
 }
 
 .profile-about{
-    display: flex;
-
-    padding-left: 30px;
-
+display: flex;
+padding-left: 30px;
 }
 
 .img-about{
     padding-left: 50px;
-
 }
 
 .about-page{
@@ -29,6 +33,5 @@
 
 .about-contain{
     padding-left: 40px;
-    padding-top: 200px;
 }
 
