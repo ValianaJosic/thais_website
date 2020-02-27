@@ -12,3 +12,11 @@
     height: 35%;
     width: 35%;
 }
+
+.contact-img{
+    height: 70%;
+    width: 50%;
+    position: absolute;;
+    top: 20%;
+    right: 0;
+}
