@@ -1,8 +1,8 @@
 import React from 'react';
 // import Listings from '../Properties/Carousel/Carousel';
 // import PersonList from '../Properties/service/service';
-import Iframe from 'react-iframe'
-import '../Properties/Properties.css'
+import Iframe from 'react-iframe';
+import '../Properties/Properties.css';
 
 function Home() {
   return (
