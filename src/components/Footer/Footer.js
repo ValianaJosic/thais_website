@@ -12,6 +12,7 @@ const Footer = () => {
       <div>Real Estate Advisor</div>
       <div>786-546-0440</div>
       <div>thais.reyes@compass.com</div>
+      <div>	&copy;</div>
     </div>
   );
 }
