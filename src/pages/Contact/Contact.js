@@ -69,7 +69,7 @@ class Contact extends React.Component {
                 value={this.state.message} onChange={this.onMessageChange.bind(this)} />
             </FormGroup>
 
-            <Button>Submit</Button>
+            <Button className="submit-btn">Submit</Button>
           </Form>
         </div>
         <div className="img-contact">
