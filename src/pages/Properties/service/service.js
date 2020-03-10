@@ -10,7 +10,7 @@ axios({
   "x-rapidapi-key":"445356f5d8msh8d69aea21e1a809p10d900jsnf818d0339fca"
   },"data":{
   "rentzestimate":"true",
-  "zws-id":"X1-ZWz1hnffbtz6kr_23up5",
+  "zws-id":"",
   "citystatezip":"\"\"",
   "address":"\"\""
   }
