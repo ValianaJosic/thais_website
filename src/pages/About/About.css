@@ -1,6 +1,6 @@
 .about-img{
-    height: 78%;
-    width: 78%;
+    height: 70%;
+    width: 70%;
     position: relative;
     top:-17%;
 }
@@ -13,10 +13,11 @@
 .profile-about{
 display: flex;
 padding-left: 30px;
+padding-bottom: 90  px;
 }
 
 .img-about{
-    padding-left: 50px;
+    padding-left: 100px;
 }
 
 .about-page{

@@ -1,25 +1,24 @@
-import React from 'react';
 import axios from 'axios';
 
-export default class PersonList extends React.Component {
-  state = {
-    properties: []
-  }
 
-  componentDidMount() {
-    axios.get(`https://my-json-server.typicode.com/ValianaJosic/property-api-mock/properties`)
-      .then(res => {
-        const properties = res.data;
-        this.setState({ properties });
-        console.log(properties[0]);
-      })
+axios({
+  "method":"POST  ",
+  "url":"https://zillowdimashirokovv1.p.rapidapi.com/GetSearchResults.htm",
+  "headers":{
+  "content-type":"application/x-www-form-urlencoded",
+  "x-rapidapi-host":"ZillowdimashirokovV1.p.rapidapi.com",
+  "x-rapidapi-key":"445356f5d8msh8d69aea21e1a809p10d900jsnf818d0339fca"
+  },"data":{
+  "rentzestimate":"true",
+  "zws-id":"X1-ZWz1hnffbtz6kr_23up5",
+  "citystatezip":"\"\"",
+  "address":"\"\""
   }
-
-  render() {
-    return (
-      <ul>
-        { this.state.properties.map(properties => <li>{properties.price}</li>)}
-      </ul>
-    )
-  }
-}
+  })
+  .then((response)=>{
+    console.log(response)
+  })
+  .catch((error)=>{
+    console.log(error)
+  })
+  
