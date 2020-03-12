@@ -6,7 +6,7 @@
     position: absolute;
     left: 5%;
     margin-left: -4px;
-    top: 170%;
+    top: 145%;
     margin-top: -80px;
     text-align: center;
     text-decoration: none;
@@ -15,7 +15,7 @@
   .home-btn{
     font-size: 20px;
     color: #E7ECEF;
-    text-transform: uppercase;
+    text-transform: uppe5case;
     display: block;
     font-size: 1.5em;
     margin-block-start: 0.60em;
