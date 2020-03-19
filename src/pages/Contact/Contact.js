@@ -46,7 +46,7 @@ class Contact extends React.Component {
         <div className="form">
           <Form onSubmit={this.handleSubmit.bind(this)} method="POST" style={{ width: '600px' }}>
             <FormGroup>
-              <Label for="name">Name:</Label>
+              <Label for="name" style={{color: '#3A5C83'}}>Name:</Label>
               <Input
                 type="text"
                 name="name"
@@ -54,7 +54,7 @@ class Contact extends React.Component {
             </FormGroup>
 
             <FormGroup>
-              <Label for="email">Email:</Label>
+              <Label for="email" style={{color: '#3A5C83'}}>Email:</Label>
               <Input
                 type="email"
                 name="email"
@@ -62,14 +62,14 @@ class Contact extends React.Component {
             </FormGroup>
 
             <FormGroup>
-              <Label for="message">Message:</Label>
+              <Label for="message" style={{color: '#3A5C83'}}>Message:</Label>
               <Input
                 type="textarea"
                 name="message"
                 value={this.state.message} onChange={this.onMessageChange.bind(this)} />
             </FormGroup>
 
-            <Button className="submit-btn">Submit</Button>
+            <Button className="submit-btn" style={{backgroundColor: '#6096BA'}}>Submit</Button>
           </Form>
         </div>
         <div className="img-contact">
