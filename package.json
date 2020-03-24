@@ -2,7 +2,8 @@
   "name": "thais_website",
   "version": "0.1.0",
   "engines": {
-    "node": "13.7.x"
+    "node": "13.7.x",
+    "npm": "6.13.x"
   },
   "private": true,
   "dependencies": {
@@ -23,7 +24,7 @@
     "reactstrap": "^8.4.1"
   },
   "scripts": {
-    "start": "react-scripts start",
+    "start": "node index.js",
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
