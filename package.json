@@ -27,7 +27,7 @@
   },
   "scripts": {
     "start": "concurrently \"react-scripts start\" \"node server.js\"",
-    "build": "react-scripts build",
+    "build": "ng build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
     "heroku-postbuild": "ng build --prod"
