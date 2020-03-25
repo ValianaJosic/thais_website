@@ -57,9 +57,9 @@ app.listen(process.env.PORT ||3002)
 
 
 if (process.env.NODE_ENV === 'production') {
-	app.use(express.static('thais_website/build'));
+	app.use(express.static('build'));
 }
 
 app.get('*', (request, response) => {
-	response.sendFile(path.join(__dirname, 'thais_website/build', 'index.html'));
+	response.sendFile(path.join(__dirname, 'build', 'index.html'));
 });
