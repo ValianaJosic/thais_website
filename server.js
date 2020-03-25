@@ -55,12 +55,3 @@ app.use(express.json())
 app.use('/', router)
 app.listen(process.env.PORT ||3002)
 
-var path = require("path");
-
-if (process.env.NODE_ENV === 'production') {
-	app.use(express.static('/build'));
-}
-
-app.get('*', (request, response) => {
-	response.sendFile(path.join(__dirname, '/build', 'index.html'));
-});
