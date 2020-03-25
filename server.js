@@ -54,3 +54,12 @@ app.use(cors())
 app.use(express.json())
 app.use('/', router)
 app.listen(process.env.PORT ||3002)
+
+
+if (process.env.NODE_ENV === 'production') {
+	app.use(express.static('thais_website/build'));
+}
+
+app.get('*', (request, response) => {
+	response.sendFile(path.join(__dirname, 'thais_website/build', 'index.html'));
+});
