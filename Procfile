@@ -1,1 +1,0 @@
-web: concurrently \"react-scripts start\" \"node server.js\"
