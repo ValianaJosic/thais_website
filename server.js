@@ -58,9 +58,9 @@ app.listen(process.env.PORT ||3002)
 var path = require("path");
 
 if (process.env.NODE_ENV === 'production') {
-	app.use(express.static('thais_website'));
+	app.use(express.static('thais_website/build'));
 }
 
 app.get('*', (request, response) => {
-	response.sendFile(path.join(__dirname, 'thais_website', 'index.html'));
+	response.sendFile(path.join(__dirname, 'thais_website/build', 'index.html'));
 });
