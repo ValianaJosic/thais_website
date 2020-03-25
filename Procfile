@@ -1,1 +1,1 @@
-web: yarn start:prod
+web: react-scripts start:prod
