@@ -55,12 +55,12 @@ app.use(express.json())
 app.use('/', router)
 app.listen(process.env.PORT ||3002)
 
-// const path = require('path');
-// const publicPath = path.join(__dirname, 'public');
+const path = require('path');
+const publicPath = path.join(__dirname, 'thais_website');
 
-// app.use(express.static(publicPath));
+app.use(express.static(publicPath));
 
-// app.get('*', (req, res) => {
-//   res.sendFile(path.join(publicPath, 'index.html'));
-// });
+app.get('*', (req, res) => {
+  res.sendFile(path.join(publicPath, 'index.html'));
+});
 
