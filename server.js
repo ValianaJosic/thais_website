@@ -56,7 +56,7 @@ app.use('/', router)
 app.listen(process.env.PORT ||3002)
 
 const path = require('path');
-const publicPath = path.join(__dirname, 'thais_website');
+const publicPath = path.join(__dirname, 'public');
 
 app.use(express.static(publicPath));
 
