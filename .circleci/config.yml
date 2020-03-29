@@ -1,0 +1,10 @@
+test:  
+  override:
+    - "true"
+    
+deployment:
+  production:
+    branch: master
+    commands:
+      - yarn run build
+    
