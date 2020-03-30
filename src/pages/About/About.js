@@ -34,7 +34,9 @@ const About = () => {
             <img src={AboutIMG} alt="thais" className="about-img" />
           </div>
         </div>
+        <div>
         <Contactbtn />
+        </div>
       </div>
     </Fragment>
   );
