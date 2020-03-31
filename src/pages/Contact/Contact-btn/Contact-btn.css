@@ -3,13 +3,14 @@
     width: 300px;
     border: 1px solid #fff;
     background-color:#6096BA;
-    position: absolute;
-    left: 5%;
-    margin-left: -4px;
-    top: 145%;
-    margin-top: -80px;
     text-align: center;
     text-decoration: none;
+  }
+
+  .contact-div{
+    padding-bottom: 60px;
+    display: flex;
+    justify-content: left;
   }
 
   .home-btn{
