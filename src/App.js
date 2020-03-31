@@ -8,6 +8,7 @@ import Contact from './pages/Contact/Contact';
 import Navigation from './components/Nav/Nav';
 import Properties from './pages/Properties/Properties';
 import Footer from './components/Footer/Footer'
+import Chatbot from './components/Chatbot/Chatbot';
 
 class App extends Component {
   render() {
@@ -22,6 +23,9 @@ class App extends Component {
               <Route path="/contact" component={Contact} />
               <Route path="/properties" component={Properties} />
             </Switch>
+          </div>
+          <div>
+          <Chatbot/>
           </div>
           <Footer />
         </div>
