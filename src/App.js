@@ -25,7 +25,7 @@ class App extends Component {
             </Switch>
           </div>
           <div>
-          <Chatbot/>
+            <Chatbot />
           </div>
           <Footer />
         </div>
