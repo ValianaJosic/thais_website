@@ -6,7 +6,6 @@ import ThaisContact from '../../assets/images/thaiscontact.png';
 import ContactIMG from '../../assets/images/compass.jpeg'
 import axios from 'axios';
 
-
 class Contact extends React.Component {
   
   constructor(props) {
@@ -22,7 +21,7 @@ class Contact extends React.Component {
     e.preventDefault();
     axios({
       method: "POST",
-      url: "https://thais.herokuapp.com:3002/send",
+      url: "http://localhost:3002/send",
       data: this.state,
     }).then((response) => {
       if (response.data.status === 'success') {
