@@ -10,6 +10,7 @@ import Properties from './pages/Properties/Properties';
 import Footer from './components/Footer/Footer'
 import Chatbot from './components/Chatbot/Chatbot';
 
+
 class App extends Component {
   render() {
     return (
