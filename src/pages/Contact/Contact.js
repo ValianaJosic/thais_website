@@ -20,7 +20,7 @@ class Contact extends React.Component {
     e.preventDefault();
     axios({
       method: "POST",
-      url: "https://thais.herokuapp.com/contact/send",
+      url: "https://thais.herokuapp.com/send",
       data: this.state,
     }).then((response) => {
       if (response.data.status === 'success') {
