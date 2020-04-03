@@ -3,11 +3,6 @@ var router = express.Router();
 var nodemailer = require('nodemailer');
 var cors = require('cors');
 const creds = require('./config');
-const proxy = require('http-proxy-middleware')
-
-module.exports = function(app) {
-    app.use(proxy(['/api' ], { target: 'http://localhost:3002' }));
-} 
 
 var transport = {
   host: 'smtp.gmail.com',
@@ -54,7 +49,7 @@ router.post('/send', (req, res, next) => {
   })
 })
 
-const PORT = process.env.PORT || 3002; 
+const PORT = process.env.PORT || 3000;
 const app = express()
 app.use(cors())
 app.use(express.json())
