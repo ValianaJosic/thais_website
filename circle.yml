@@ -1,0 +1,10 @@
+test:  
+  override:
+    - "true"
+    
+deployment:
+  production:
+    branch: master
+    commands:
+      - concurrently \"yarn run server\" \"yarn run client\""
+      - scp -r build/* your-username@your-server.com:/path-to-your-website.com/
