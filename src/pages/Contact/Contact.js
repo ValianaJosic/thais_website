@@ -20,7 +20,7 @@ class Contact extends React.Component {
     e.preventDefault();
     axios({
       method: "POST",
-      url: "http://localhost:3002/send",
+      url: process.env.baseURL + "/send",
       data: this.state,
     }).then((response) => {
       if (response.data.status === 'success') {
