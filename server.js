@@ -5,9 +5,9 @@ var cors = require('cors');
 const creds = require('./config');
 
 var transport = {
-    host: 'smtp.gmail.com', // SMTP host of provider
-    port:  587,
-    auth: {
+  host: 'smtp.gmail.com',
+  port: 587,
+  auth: {
     user: creds.USER,
     pass: creds.PASS
   }
@@ -31,7 +31,7 @@ router.post('/send', (req, res, next) => {
 
   var mail = {
     from: name,
-    to: 'bobhope2015hope@gmail.com',  // email address that you want to receive messages on
+    to: 'bobhope2015hope@gmail.com',
     subject: 'New Message from Contact Form',
     text: content
   }
@@ -43,11 +43,12 @@ router.post('/send', (req, res, next) => {
       })
     } else {
       res.json({
-       status: 'success'
+        status: 'success'
       })
     }
   })
 })
+
 
 const app = express()
 app.use(cors())

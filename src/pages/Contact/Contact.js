@@ -1,11 +1,9 @@
-
 import React, { Fragment } from 'react';
 import { Form, FormGroup, Input, Label, Button } from 'reactstrap';
 import '../Contact/Contact.css';
 import ThaisContact from '../../assets/images/thaiscontact.png';
 import ContactIMG from '../../assets/images/compass.jpeg'
 import axios from 'axios';
-
 
 class Contact extends React.Component {
   
