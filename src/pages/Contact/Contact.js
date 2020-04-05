@@ -132,8 +132,8 @@ export default class Contact extends React.Component {
             <Label style={{color: '#3A5C83'}}>Message</Label>
             <Input type="text" name="message" />
           </FormGroup>
-          {status === "SUCCESS" ? <p>Your message was sent.</p> : <Button  className="submit-btn" style={{backgroundColor: '#6096BA'}}>Submit</Button>}
-          {status === "ERROR" && <p>Ooops! There was an error.</p>}
+          {status === "SUCCESS" ? <p style={{color: '#3A5C83'}}>Your message was sent.</p> : <Button  className="submit-btn" style={{backgroundColor: '#6096BA'}}>Submit</Button>}
+          {status === "ERROR" && <p style={{color: '#3A5C83'}}>Ooops! There was an error.</p>}
         </Form>
         </div>
         <div className="img-contact">
