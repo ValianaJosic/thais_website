@@ -1,10 +1,6 @@
 {
   "name": "thais_website",
   "version": "0.1.0",
-  "engines": {
-    "node": "13.7.x",
-    "npm": "6.13.x"
-  },
   "private": true,
   "dependencies": {
     "@testing-library/jest-dom": "^4.2.4",
@@ -34,8 +30,7 @@
     "eject": "react-scripts eject",
     "server": "nodemon server.js",
     "client": "react-scripts start --prefix client",
-    "dev": "concurrently \"yarn run server\" \"yarn run client\"",
-    "heroku-postbuild": "NPM_CONFIG_PRODUCTION=false yarn install --prefix client && yarn run build --prefix client"
+    "dev": "concurrently \"yarn run server\" \"yarn run client\""
   },
   "eslintConfig": {
     "extends": "react-app"

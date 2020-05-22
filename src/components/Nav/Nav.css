@@ -16,6 +16,7 @@ flex-direction: row;
 .link-div{
   display: flex;
   padding-left: 40px;
+  z-index: 100;
 }
 
 .nav-page{
