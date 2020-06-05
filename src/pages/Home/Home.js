@@ -26,13 +26,13 @@ function Home() {
         display="initial"
         position="relative"/>
         </div>
-        <div>
+        {/* <div>
         <Iframe url="https://www.compass.com/marketing/email/1617e0d2-f01a-49ae-93c3-3e8ce32e342c.html"
         width="100%"
         height="3310px"
         display="initial"
         position="relative"/>
-        </div>
+        </div> */}
     </div>
   );
 }
