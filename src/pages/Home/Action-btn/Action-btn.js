@@ -1,12 +1,13 @@
 import React from 'react';
 import '../Action-btn/Action-btn.css';
+import { NavLink } from 'react-router-dom';
 
 
 function Actionbtn() {
 
     return (
         <div className="action-btn">
-            <a href="../Properties" className="home-btn">Our Properties</a>
+            <NavLink to="/properties" className="home-btn"> Our Properties</NavLink>
         </div>
     )
 };
