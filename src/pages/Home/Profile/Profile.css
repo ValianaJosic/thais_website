@@ -50,3 +50,18 @@
   padding-left: 10px;
   padding-bottom: 30px;
 }
+
+@media (max-width: 40em) {
+
+  .contact-profile, .about, .action-btn, .about-img, .contact-img, .arrow{
+      display: none;
+  }
+
+.video{
+  padding-top: 150px;
+}
+
+.thais{
+  padding-left: 0;
+}
+  }

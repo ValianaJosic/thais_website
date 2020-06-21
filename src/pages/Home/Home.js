@@ -8,7 +8,7 @@ import Iframe from 'react-iframe';
 
 function Home() {
   return (
-    <div>
+    <div >
       <div className="video-div" >
         <video autoPlay="autoplay" loop="loop" muted className="video">
           <source src={Video} type="video/mp4" />
@@ -24,7 +24,8 @@ function Home() {
         width="100%"
         height="500px"
         display="initial"
-        position="relative"/>
+        position="relative"
+        title='home-search'/>
         </div>
         {/* <div>
         <Iframe url="https://www.compass.com/marketing/email/1617e0d2-f01a-49ae-93c3-3e8ce32e342c.html"

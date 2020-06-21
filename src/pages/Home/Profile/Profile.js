@@ -6,11 +6,11 @@ import Learnbtn from './Learn-btn/learn-btn';
 function Profile() {
 
     return (
-        <div className="profile-wrapper">
+        <div className="profile-wrapper container">
             <div className="profile">
             </div>
             <div className="about">
-                <div className="contact-profile">Thais Reyes
+                <div className="contact-profile column">Thais Reyes
         <br></br>
                     Real Estate Advisor
         <br></br>
