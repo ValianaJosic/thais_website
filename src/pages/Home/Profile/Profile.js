@@ -6,7 +6,7 @@ import Learnbtn from './Learn-btn/learn-btn';
 function Profile() {
 
     return (
-        <div className="profile-wrapper container">
+        <div className="profile-wrapper">
             <div className="profile">
             </div>
             <div className="about">
