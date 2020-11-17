@@ -1,3 +1,10 @@
+# Realtor Project
+
+● Designed UI Mockups and UX Research
+● Developed project using Javascript language and React library
+● Implemented combination of Express.js and Nodemailer for Nodejs backend
+● Installed npm packages such as Axios to handle HTTP requests
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
